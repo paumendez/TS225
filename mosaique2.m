@@ -9,7 +9,7 @@ function [ Im_out] = mosaique3( im,h,l,N )
 %Sortie : Mosaique final fusion de l ensemble des images fournies.
 %%
     B=zeros(N,4);
-    B(1,:)=generate(im{1});
+    B(1,:)=generate(im{1}); 
     tx=zeros(1,N);
     ty=zeros(1,N);
     tx(1)=0;
